@@ -1,0 +1,31 @@
+# Xcode and Swift project ignore rules
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcworkspace
+!default.xcworkspace
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xsyncdiary
+*.sharedparameter
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.build/
+
+# macOS
+.DS_Store
+
+# Local Agent Tools
+.agents/
